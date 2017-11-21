@@ -3,4 +3,9 @@
 "Gce-Wq-C9j.normalTitle" = "alerta";
 
 /* Class = "UILabel"; text = "Hello"; ObjectID = "hYR-U8-i4j"; */
-"hYR-U8-i4j.text" = "Hola";
+"hYR-U8-i4j.text" = "Hola;
+
+"error"="Error";
+"mongolín"="retarded";
+"mensajeloginincorrecto"="invalid user or password";
+"ok"="Ok";

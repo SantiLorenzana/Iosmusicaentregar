@@ -15,16 +15,7 @@ class ViewController: UIViewController {
        
     }
     @IBAction func alertbutton(_ sender: UIButton) {
-        let alert = UIAlertController(title: "Error", message: "Error de login mongolin", preferredStyle: .alert)
-        
-        alert.addAction(UIAlertAction(title: "Aceptar", style:
-            .default, handler: nil))
-        alert.addAction(UIAlertAction(title: "Cancelar", style:
-            .cancel, handler: { (accion) in
-                print("El usuario ha pulsado cancelar")
-        }))
-        
-        present(alert, animated: true, completion: nil)
+        mostrarError(mensaje: "mesajeloginincorrecto")
     }
     func mostrarError(mensaje: String) {
         
