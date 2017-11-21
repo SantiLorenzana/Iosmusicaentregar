@@ -12,13 +12,38 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
     }
+    @IBAction func alertbutton(_ sender: UIButton) {
+        let alert = UIAlertController(title: "Error", message: "Error de login mongolin", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "Aceptar", style:
+            .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cancelar", style:
+            .cancel, handler: { (accion) in
+                print("El usuario ha pulsado cancelar")
+        }))
+        
+        present(alert, animated: true, completion: nil)
+    }
+    func mostrarError(mensaje: String) {
+        
+        let alert = UIAlertController(title: "Error", message: "Error de login mongolin", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "Aceptar", style:
+            .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cancelar", style:
+            .cancel, handler: { (accion) in
+                print("El usuario ha pulsado cancelar")
+        }))
+        
+        present(alert, animated: true, completion: nil)
+        
+        
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
+    
 
 
 }
