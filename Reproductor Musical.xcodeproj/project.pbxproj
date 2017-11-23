@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F61E74C1FC751FE00FD706C /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74B1FC751FE00FD706C /* song.swift */; };
+		7F61E74E1FC7548B00FD706C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74D1FC7548B00FD706C /* Data.swift */; };
+		7F61E7501FC7595400FD706C /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74F1FC7595400FD706C /* PlayingViewController.swift */; };
 		7F95F60F1FC4AC5600BDE7E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95F60E1FC4AC5600BDE7E2 /* AppDelegate.swift */; };
 		7F95F6111FC4AC5600BDE7E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95F6101FC4AC5600BDE7E2 /* ViewController.swift */; };
 		7F95F6141FC4AC5600BDE7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6121FC4AC5600BDE7E2 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F61E74B1FC751FE00FD706C /* song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
+		7F61E74D1FC7548B00FD706C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7F61E74F1FC7595400FD706C /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
 		7F95F60B1FC4AC5600BDE7E2 /* Reproductor Musical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reproductor Musical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F95F60E1FC4AC5600BDE7E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F95F6101FC4AC5600BDE7E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				7F95F61A1FC4AC5600BDE7E2 /* Info.plist */,
 				7F95F6221FC4B68900BDE7E2 /* Localizable.strings */,
 				7F95F6291FC4C20200BDE7E2 /* Localizable.strings */,
+				7F61E74B1FC751FE00FD706C /* song.swift */,
+				7F61E74D1FC7548B00FD706C /* Data.swift */,
+				7F61E74F1FC7595400FD706C /* PlayingViewController.swift */,
 			);
 			path = "Reproductor Musical";
 			sourceTree = "<group>";
@@ -150,6 +159,9 @@
 			files = (
 				7F95F6111FC4AC5600BDE7E2 /* ViewController.swift in Sources */,
 				7F95F60F1FC4AC5600BDE7E2 /* AppDelegate.swift in Sources */,
+				7F61E74C1FC751FE00FD706C /* song.swift in Sources */,
+				7F61E7501FC7595400FD706C /* PlayingViewController.swift in Sources */,
+				7F61E74E1FC7548B00FD706C /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +338,7 @@
 				7F95F61F1FC4AC5600BDE7E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
