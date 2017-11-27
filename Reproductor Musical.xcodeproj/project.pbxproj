@@ -15,8 +15,12 @@
 		7F95F6141FC4AC5600BDE7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6121FC4AC5600BDE7E2 /* Main.storyboard */; };
 		7F95F6161FC4AC5600BDE7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6151FC4AC5600BDE7E2 /* Assets.xcassets */; };
 		7F95F6191FC4AC5600BDE7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6171FC4AC5600BDE7E2 /* LaunchScreen.storyboard */; };
-		7F95F6231FC4B68900BDE7E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6221FC4B68900BDE7E2 /* Localizable.strings */; };
 		7F95F62B1FC4C20200BDE7E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6291FC4C20200BDE7E2 /* Localizable.strings */; };
+		7FA16F071FCC662F00280279 /* ErrorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA16F061FCC662E00280279 /* ErrorDisplay.swift */; };
+		7FA16F0C1FCC6EBE00280279 /* Make It Stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FA16F081FCC6EBE00280279 /* Make It Stop.mp3 */; };
+		7FA16F0D1FCC6EBE00280279 /* Make Me Wanna Die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FA16F091FCC6EBE00280279 /* Make Me Wanna Die.mp3 */; };
+		7FA16F0E1FCC6EBE00280279 /* Nightmare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FA16F0A1FCC6EBE00280279 /* Nightmare.mp3 */; };
+		7FA16F0F1FCC6EBE00280279 /* The Diary of Jane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7FA16F0B1FCC6EBE00280279 /* The Diary of Jane.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,11 +34,15 @@
 		7F95F6151FC4AC5600BDE7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F95F6181FC4AC5600BDE7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F95F61A1FC4AC5600BDE7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F95F6221FC4B68900BDE7E2 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		7F95F6281FC4BE8D00BDE7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		7F95F62A1FC4C20200BDE7E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7F95F62C1FC4C31C00BDE7E2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		7F95F62D1FC4C31C00BDE7E2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7FA16F061FCC662E00280279 /* ErrorDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDisplay.swift; sourceTree = "<group>"; };
+		7FA16F081FCC6EBE00280279 /* Make It Stop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Make It Stop.mp3"; sourceTree = "<group>"; };
+		7FA16F091FCC6EBE00280279 /* Make Me Wanna Die.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Make Me Wanna Die.mp3"; sourceTree = "<group>"; };
+		7FA16F0A1FCC6EBE00280279 /* Nightmare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Nightmare.mp3; sourceTree = "<group>"; };
+		7FA16F0B1FCC6EBE00280279 /* The Diary of Jane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Diary of Jane.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 		7F95F6021FC4AC5600BDE7E2 = {
 			isa = PBXGroup;
 			children = (
+				7FA16EFD1FCC5F2C00280279 /* Songs files */,
 				7F95F60D1FC4AC5600BDE7E2 /* Reproductor Musical */,
 				7F95F60C1FC4AC5600BDE7E2 /* Products */,
 			);
@@ -73,13 +82,24 @@
 				7F95F6151FC4AC5600BDE7E2 /* Assets.xcassets */,
 				7F95F6171FC4AC5600BDE7E2 /* LaunchScreen.storyboard */,
 				7F95F61A1FC4AC5600BDE7E2 /* Info.plist */,
-				7F95F6221FC4B68900BDE7E2 /* Localizable.strings */,
 				7F95F6291FC4C20200BDE7E2 /* Localizable.strings */,
 				7F61E74B1FC751FE00FD706C /* song.swift */,
 				7F61E74D1FC7548B00FD706C /* Data.swift */,
 				7F61E74F1FC7595400FD706C /* PlayingViewController.swift */,
+				7FA16F061FCC662E00280279 /* ErrorDisplay.swift */,
 			);
 			path = "Reproductor Musical";
+			sourceTree = "<group>";
+		};
+		7FA16EFD1FCC5F2C00280279 /* Songs files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA16F081FCC6EBE00280279 /* Make It Stop.mp3 */,
+				7FA16F091FCC6EBE00280279 /* Make Me Wanna Die.mp3 */,
+				7FA16F0A1FCC6EBE00280279 /* Nightmare.mp3 */,
+				7FA16F0B1FCC6EBE00280279 /* The Diary of Jane.mp3 */,
+			);
+			name = "Songs files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,11 +162,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA16F0F1FCC6EBE00280279 /* The Diary of Jane.mp3 in Resources */,
+				7FA16F0D1FCC6EBE00280279 /* Make Me Wanna Die.mp3 in Resources */,
 				7F95F62B1FC4C20200BDE7E2 /* Localizable.strings in Resources */,
+				7FA16F0E1FCC6EBE00280279 /* Nightmare.mp3 in Resources */,
 				7F95F6191FC4AC5600BDE7E2 /* LaunchScreen.storyboard in Resources */,
-				7F95F6231FC4B68900BDE7E2 /* Localizable.strings in Resources */,
 				7F95F6161FC4AC5600BDE7E2 /* Assets.xcassets in Resources */,
 				7F95F6141FC4AC5600BDE7E2 /* Main.storyboard in Resources */,
+				7FA16F0C1FCC6EBE00280279 /* Make It Stop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +185,7 @@
 				7F61E74C1FC751FE00FD706C /* song.swift in Sources */,
 				7F61E7501FC7595400FD706C /* PlayingViewController.swift in Sources */,
 				7F61E74E1FC7548B00FD706C /* Data.swift in Sources */,
+				7FA16F071FCC662F00280279 /* ErrorDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

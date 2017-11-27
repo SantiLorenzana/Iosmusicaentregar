@@ -73,6 +73,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDB-p3-a3n">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="293"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="&lt;"/>
                                         <connections>
                                             <action selector="ButtonBefore:" destination="HpY-NK-V2e" eventType="touchUpInside" id="Qsc-Db-kN5"/>
@@ -109,6 +110,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eL8-tV-Ewm">
                                         <rect key="frame" x="270.5" y="0.0" width="30" height="293"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="&gt;"/>
                                         <connections>
                                             <action selector="ButtonForward:" destination="HpY-NK-V2e" eventType="touchUpInside" id="Z1n-hx-MeB"/>

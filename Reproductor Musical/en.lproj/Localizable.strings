@@ -1,6 +1,5 @@
-
-/* Class = "UIButton"; normalTitle = "alert"; ObjectID = "Gce-Wq-C9j"; */
-"Gce-Wq-C9j.normalTitle" = "alert";
-
-/* Class = "UILabel"; text = "Hello"; ObjectID = "hYR-U8-i4j"; */
-"hYR-U8-i4j.text" = "Hello";
+"error"="Error";
+"mongolín"="retarded";
+"mensajeloginincorrecto"="invalid user or password";
+"Cancionnotfound404"="That song does not exist";
+"ok"="Ok";

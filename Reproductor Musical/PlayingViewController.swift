@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PlayingViewController: UIViewController {
     
@@ -22,6 +23,7 @@ class PlayingViewController: UIViewController {
     
     
      var currentsong: Int = 0
+    var player: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +32,7 @@ class PlayingViewController: UIViewController {
         Imageview.alpha = 0
         UIView.animate(withDuration: 1) { 
             self.Imageview.alpha = 1
+    
         }
         
     }
@@ -44,6 +47,7 @@ class PlayingViewController: UIViewController {
             self.Titleview.center = CGPoint(x:100, y:100)
             self.Artistview.center = CGPoint(x:-100, y:-100)
         }
+    
         
 
         
@@ -76,7 +80,7 @@ class PlayingViewController: UIViewController {
         Artistview.text = songs[songIndex].artist
         Imageview.image = songs[songIndex].image
         fondo.image = songs[songIndex].image
-
+        loadaudio(url: songs[songIndex].audio)
         
     
     }
@@ -95,13 +99,20 @@ class PlayingViewController: UIViewController {
         }
         
     }
+    func loadaudio(url: URL) {
+        
+            
+            do {
+                player = try AVAudioPlayer(contentsOf: url)
+                player?.play()
+            } catch {
+                present(mostrarError(mensaje: "Cancionnotfound404"), animated:true, completion: nil)
+            }
+        
+            
+        
     
-    
-    
-    
-    
-    
-    
+    }
     
     
 }
