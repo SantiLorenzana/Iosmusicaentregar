@@ -100,8 +100,7 @@ class PlayingViewController: UIViewController {
         
     }
     func loadaudio(url: URL) {
-        
-            
+
             do {
                 player = try AVAudioPlayer(contentsOf: url)
                 player?.play()
