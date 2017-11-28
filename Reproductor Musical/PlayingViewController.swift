@@ -18,6 +18,9 @@ class PlayingViewController: UIViewController {
         player?.pause()
     }
     
+    @IBAction func Volume(_ sender: UISlider) {
+        player?.volume = sender.value
+    }
     
     @IBOutlet weak var Titleview: UILabel!
     

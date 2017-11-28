@@ -79,15 +79,30 @@
                                                 <action selector="Play:" destination="HpY-NK-V2e" eventType="touchUpInside" id="rYc-An-eT4"/>
                                             </connections>
                                         </button>
+                                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="PVD-G3-hQW" userLabel="volume">
+                                            <rect key="frame" x="15" y="20" width="291" height="31"/>
+                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="287" id="R9q-zh-aW8"/>
+                                                <constraint firstAttribute="height" constant="30" id="iPt-Zy-KK6"/>
+                                            </constraints>
+                                            <connections>
+                                                <action selector="Volume:" destination="HpY-NK-V2e" eventType="valueChanged" id="0eL-7c-Nl7"/>
+                                            </connections>
+                                        </slider>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="AiB-5Q-5FO" firstAttribute="leading" secondItem="hF8-TR-zGB" secondAttribute="trailing" constant="82" id="Alp-Dj-D9A"/>
                                         <constraint firstItem="AiB-5Q-5FO" firstAttribute="top" secondItem="W5T-g2-ZLX" secondAttribute="top" constant="391" id="JHV-W8-N9x"/>
+                                        <constraint firstAttribute="trailing" secondItem="PVD-G3-hQW" secondAttribute="trailing" constant="16" id="JQs-kd-Jas"/>
                                         <constraint firstItem="hF8-TR-zGB" firstAttribute="top" secondItem="W5T-g2-ZLX" secondAttribute="top" constant="391" id="SeV-jZ-cYQ"/>
+                                        <constraint firstItem="PVD-G3-hQW" firstAttribute="top" secondItem="W5T-g2-ZLX" secondAttribute="top" constant="20" id="XY9-Vv-GPL"/>
                                         <constraint firstAttribute="trailing" secondItem="AiB-5Q-5FO" secondAttribute="trailing" constant="95" id="bmy-1z-2Fz"/>
+                                        <constraint firstItem="AiB-5Q-5FO" firstAttribute="top" secondItem="PVD-G3-hQW" secondAttribute="bottom" constant="341" id="cd5-4F-V1T"/>
                                         <constraint firstAttribute="bottom" secondItem="hF8-TR-zGB" secondAttribute="bottom" constant="39" id="dHP-Fx-mcq"/>
                                         <constraint firstItem="AiB-5Q-5FO" firstAttribute="leading" secondItem="hF8-TR-zGB" secondAttribute="trailing" constant="82" id="eD2-0I-T8h"/>
                                         <constraint firstAttribute="bottom" secondItem="AiB-5Q-5FO" secondAttribute="bottom" constant="39" id="eU0-sG-uLI"/>
+                                        <constraint firstItem="PVD-G3-hQW" firstAttribute="leading" secondItem="W5T-g2-ZLX" secondAttribute="leading" constant="17" id="l5b-Yv-fby"/>
                                         <constraint firstItem="hF8-TR-zGB" firstAttribute="leading" secondItem="W5T-g2-ZLX" secondAttribute="leading" constant="71" id="n8B-hb-q38"/>
                                     </constraints>
                                 </view>
