@@ -11,8 +11,14 @@ import AVFoundation
 
 class PlayingViewController: UIViewController {
     
+    @IBAction func Play(_ sender: UIButton) {
+        player?.play()
+    }
+    @IBAction func Pause(_ sender: UIButton) {
+        player?.pause()
+    }
     
-
+    
     @IBOutlet weak var Titleview: UILabel!
     
     @IBOutlet weak var Imageview: UIImageView!

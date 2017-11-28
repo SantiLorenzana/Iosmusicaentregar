@@ -64,23 +64,48 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="W5T-g2-ZLX">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hF8-TR-zGB">
+                                            <rect key="frame" x="76" y="391" width="32" height="30"/>
+                                            <state key="normal" image="pausa"/>
+                                            <connections>
+                                                <action selector="Pause:" destination="HpY-NK-V2e" eventType="touchUpInside" id="e9p-Ac-kvG"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiB-5Q-5FO">
+                                            <rect key="frame" x="194" y="391" width="32" height="30"/>
+                                            <state key="normal" image="boton-de-reproduccion"/>
+                                            <connections>
+                                                <action selector="Play:" destination="HpY-NK-V2e" eventType="touchUpInside" id="rYc-An-eT4"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="AiB-5Q-5FO" firstAttribute="leading" secondItem="hF8-TR-zGB" secondAttribute="trailing" constant="82" id="Alp-Dj-D9A"/>
+                                        <constraint firstItem="AiB-5Q-5FO" firstAttribute="top" secondItem="W5T-g2-ZLX" secondAttribute="top" constant="391" id="JHV-W8-N9x"/>
+                                        <constraint firstItem="hF8-TR-zGB" firstAttribute="top" secondItem="W5T-g2-ZLX" secondAttribute="top" constant="391" id="SeV-jZ-cYQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="AiB-5Q-5FO" secondAttribute="trailing" constant="95" id="bmy-1z-2Fz"/>
+                                        <constraint firstAttribute="bottom" secondItem="hF8-TR-zGB" secondAttribute="bottom" constant="39" id="dHP-Fx-mcq"/>
+                                        <constraint firstItem="AiB-5Q-5FO" firstAttribute="leading" secondItem="hF8-TR-zGB" secondAttribute="trailing" constant="82" id="eD2-0I-T8h"/>
+                                        <constraint firstAttribute="bottom" secondItem="AiB-5Q-5FO" secondAttribute="bottom" constant="39" id="eU0-sG-uLI"/>
+                                        <constraint firstItem="hF8-TR-zGB" firstAttribute="leading" secondItem="W5T-g2-ZLX" secondAttribute="leading" constant="71" id="n8B-hb-q38"/>
+                                    </constraints>
                                 </view>
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LZp-3x-muY">
-                                <rect key="frame" x="10" y="93.5" width="300.5" height="293"/>
+                                <rect key="frame" x="8" y="93.5" width="304.5" height="293"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDB-p3-a3n">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="293"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDB-p3-a3n">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="293"/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="&lt;"/>
+                                        <state key="normal" image="avance-rapido copia"/>
                                         <connections>
                                             <action selector="ButtonBefore:" destination="HpY-NK-V2e" eventType="touchUpInside" id="Qsc-Db-kN5"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Nta-6I-sO1">
-                                        <rect key="frame" x="50" y="0.0" width="200.5" height="293"/>
+                                        <rect key="frame" x="52" y="0.0" width="200.5" height="293"/>
                                         <subviews>
                                             <label opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfO-QZ-E2y">
                                                 <rect key="frame" x="83" y="0.0" width="34.5" height="21.5"/>
@@ -107,11 +132,10 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eL8-tV-Ewm">
-                                        <rect key="frame" x="270.5" y="0.0" width="30" height="293"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eL8-tV-Ewm">
+                                        <rect key="frame" x="272.5" y="0.0" width="32" height="293"/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="&gt;"/>
+                                        <state key="normal" image="avance-rapido"/>
                                         <connections>
                                             <action selector="ButtonForward:" destination="HpY-NK-V2e" eventType="touchUpInside" id="Z1n-hx-MeB"/>
                                         </connections>
@@ -156,10 +180,14 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="580" y="-9"/>
+            <point key="canvasLocation" x="579.375" y="-10"/>
         </scene>
     </scenes>
     <resources>
         <image name="The_Pretty_Reckless_-_Make_Me_Wanna_Die" width="300" height="300"/>
+        <image name="avance-rapido" width="32" height="32"/>
+        <image name="avance-rapido copia" width="32" height="32"/>
+        <image name="boton-de-reproduccion" width="32" height="32"/>
+        <image name="pausa" width="32" height="32"/>
     </resources>
 </document>
