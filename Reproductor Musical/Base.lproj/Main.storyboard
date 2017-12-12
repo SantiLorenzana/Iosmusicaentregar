@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HpY-NK-V2e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="MzS-iA-4P7">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -197,8 +197,52 @@
             </objects>
             <point key="canvasLocation" x="579.375" y="-10"/>
         </scene>
+        <!--Editprofile-->
+        <scene sceneID="a6M-bb-WYx">
+            <objects>
+                <viewController title="Editprofile" id="MzS-iA-4P7" customClass="EditprofileViewController" customModule="Reproductor_Musical" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1pz-xH-rzC"/>
+                        <viewControllerLayoutGuide type="bottom" id="cv6-kU-hRQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bEq-0n-L9g">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="51d9tv-ukZL._SY355_" translatesAutoresizingMaskIntoConstraints="NO" id="vwz-VU-gNt">
+                                <rect key="frame" x="40" y="41" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YhX-20-Pwy">
+                                <rect key="frame" x="73" y="225" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="guardar"/>
+                                <connections>
+                                    <action selector="guardar:" destination="MzS-iA-4P7" eventType="touchUpInside" id="CZy-ON-BTM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqW-Un-8BX">
+                                <rect key="frame" x="162" y="225" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="cargar"/>
+                                <connections>
+                                    <action selector="cargar:" destination="MzS-iA-4P7" eventType="touchUpInside" id="ASP-1G-9iC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="profilepic" destination="vwz-VU-gNt" id="eBX-7N-oHA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3KA-Pn-C80" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1553" y="-18"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="51d9tv-ukZL._SY355_" width="350" height="355"/>
         <image name="The_Pretty_Reckless_-_Make_Me_Wanna_Die" width="300" height="300"/>
         <image name="avance-rapido" width="32" height="32"/>
         <image name="avance-rapido copia" width="32" height="32"/>

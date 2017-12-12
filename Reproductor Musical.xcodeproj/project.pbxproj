@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2D752C1FE05ECF000BD079 /* EditprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D752B1FE05ECF000BD079 /* EditprofileViewController.swift */; };
+		7F2D75301FE06336000BD079 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D752F1FE06336000BD079 /* DataManager.swift */; };
 		7F61E74C1FC751FE00FD706C /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74B1FC751FE00FD706C /* song.swift */; };
 		7F61E74E1FC7548B00FD706C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74D1FC7548B00FD706C /* Data.swift */; };
 		7F61E7501FC7595400FD706C /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74F1FC7595400FD706C /* PlayingViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F2D752B1FE05ECF000BD079 /* EditprofileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditprofileViewController.swift; sourceTree = "<group>"; };
+		7F2D752F1FE06336000BD079 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		7F61E74B1FC751FE00FD706C /* song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
 		7F61E74D1FC7548B00FD706C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		7F61E74F1FC7595400FD706C /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				7F61E74D1FC7548B00FD706C /* Data.swift */,
 				7F61E74F1FC7595400FD706C /* PlayingViewController.swift */,
 				7FA16F061FCC662E00280279 /* ErrorDisplay.swift */,
+				7F2D752B1FE05ECF000BD079 /* EditprofileViewController.swift */,
+				7F2D752F1FE06336000BD079 /* DataManager.swift */,
 			);
 			path = "Reproductor Musical";
 			sourceTree = "<group>";
@@ -181,7 +187,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F95F6111FC4AC5600BDE7E2 /* ViewController.swift in Sources */,
+				7F2D75301FE06336000BD079 /* DataManager.swift in Sources */,
 				7F95F60F1FC4AC5600BDE7E2 /* AppDelegate.swift in Sources */,
+				7F2D752C1FE05ECF000BD079 /* EditprofileViewController.swift in Sources */,
 				7F61E74C1FC751FE00FD706C /* song.swift in Sources */,
 				7F61E7501FC7595400FD706C /* PlayingViewController.swift in Sources */,
 				7F61E74E1FC7548B00FD706C /* Data.swift in Sources */,
