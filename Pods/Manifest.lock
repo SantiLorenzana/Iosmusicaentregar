@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Toast-Swift (~> 3.0.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: 08f20ad9d6089e83c9f7c40f7e2df541776e9b7e
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,6 @@
+framework module Pods_Reproductor_Musical {
+  umbrella header "Pods-Reproductor Musical-umbrella.h"
+
+  export *
+  module * { export * }
+}
