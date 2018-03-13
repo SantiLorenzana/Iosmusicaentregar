@@ -210,44 +210,50 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="7cL-ud-Fco">
-                                <rect key="frame" x="97" y="67.5" width="127.5" height="345.5"/>
+                                <rect key="frame" x="103.5" y="60" width="113" height="361"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Music App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gr9-px-K0h">
-                                        <rect key="frame" x="0.0" y="0.0" width="127.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spityfy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gr9-px-K0h">
+                                        <rect key="frame" x="11.5" y="0.0" width="90.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="NameTextfield" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qVn-t1-KPP">
-                                        <rect key="frame" x="7.5" y="55.5" width="113" height="30"/>
+                                        <rect key="frame" x="0.0" y="71" width="113" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="PassTextfield" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KEh-qp-0ma">
-                                        <rect key="frame" x="11" y="120.5" width="106" height="30"/>
+                                        <rect key="frame" x="3.5" y="136" width="106" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73X-RS-ZzM">
-                                        <rect key="frame" x="45" y="185.5" width="38" height="30"/>
-                                        <state key="normal" title="Login"/>
+                                        <rect key="frame" x="37.5" y="201" width="38" height="30"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="BtnLogin:" destination="rWN-Kj-k3q" eventType="touchUpInside" id="NIA-Gd-DKL"/>
                                             <segue destination="ehw-cG-1jY" kind="custom" id="KCa-0f-lZu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb7-rU-C4q">
-                                        <rect key="frame" x="23" y="250.5" width="82" height="30"/>
-                                        <state key="normal" title="Forgot pass"/>
+                                        <rect key="frame" x="15.5" y="266" width="82" height="30"/>
+                                        <state key="normal" title="Forgot pass">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="x6J-a7-pOs" kind="show" id="VpN-9f-nlq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZ9-SJ-knY">
-                                        <rect key="frame" x="37.5" y="315.5" width="53" height="30"/>
-                                        <state key="normal" title="register"/>
+                                        <rect key="frame" x="30" y="331" width="53" height="30"/>
+                                        <state key="normal" title="register">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
                                         <connections>
                                             <segue destination="PYS-Xj-x3Z" kind="show" id="ibg-Og-BOJ"/>
                                         </connections>
@@ -255,7 +261,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="7cL-ud-Fco" firstAttribute="centerX" secondItem="Aen-BZ-Plh" secondAttribute="centerX" id="Cob-Cj-64F"/>
                             <constraint firstItem="7cL-ud-Fco" firstAttribute="centerY" secondItem="Aen-BZ-Plh" secondAttribute="centerY" id="T86-gq-o0t"/>
@@ -472,6 +478,6 @@
         <image name="pausa" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eBQ-wk-NM0"/>
+        <segue reference="KCa-0f-lZu"/>
     </inferredMetricsTieBreakers>
 </document>
