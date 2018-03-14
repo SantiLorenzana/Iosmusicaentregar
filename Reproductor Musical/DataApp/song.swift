@@ -6,24 +6,22 @@
 //  Copyright © 2017 santi. All rights reserved.
 //
 
-import Foundation
+
 import UIKit
 
 class Song {
     
-   let title: String
-   let artist: String
-   let album: String
-   let audio: URL
-   let image: UIImage
+    var idSong: String = ""
+    var Artist: String = ""
+    var songName: String = ""
+    var urlSong: String = ""
+  
     
-    init(title: String, artist:String, album: String, audio: URL, image: UIImage){
-        self.title = title
-        self.artist = artist
-        self.album = album
-        self.audio = audio
-        self.image = image
-    
+    init(Song: [String: Any]) {
+        idSong = Song["id"] as! String
+        Artist = Song["nameArtist"] as! String
+        songName = Song["nameSong"] as! String
+        urlSong = Song["urlSong"] as! String
     
     }
 }

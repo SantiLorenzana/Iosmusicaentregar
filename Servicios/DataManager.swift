@@ -10,7 +10,7 @@ import UIKit
 
 class DataManager: NSObject {
     
-    let urlBase: String = ""
+    let urlBase: String = "localhost/santiApi/public/index.php/"
     
    
     
@@ -91,6 +91,15 @@ class DataManager: NSObject {
             
             completionHandler(json)
         })
+    }
+    func getSongs(params: [String: Any], completionHandler: @escaping (_ json: JSONhttp) -> Void){
+        let requestController = RequestController()
+        
+        let url: URL = URL(string:"localhost/santiApi/public/index.php/canciones/songs.json")!
+        
+        requestController.makeGetRequest(url: url, params: [:], headers: [:]) { (json) in
+            completionHandler(json)
+        }
     }
     
 }

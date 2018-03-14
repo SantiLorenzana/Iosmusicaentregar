@@ -43,20 +43,15 @@ class LoginViewController: UIViewController {
     func login(parameters: [String: Any]){
         //Se hace la llamada a la API y se filtran los códigos de respuesta
         dataManager.getLogin(params: parameters) { (json) in
-            if json.code == 200 {
-                UserDefaults.standard.set(json.data["token"], forKey: "token")
-                UserDefaults.standard.set(json.data["url_photo"], forKey: "profileImage")
-                UserDefaults.standard.set(json.data["name"], forKey: "username")
-                
-                self.performSegue(withIdentifier: "goToMain", sender: nil)
-                
+            if json.code == 201 {
+                UserDefaults.standard.set(json.data["token"] , forKey: "token")
+                self.view.makeToast(json.message , duration: 3.0, position: .top)
+                self.performSegue(withIdentifier: "mainscreenID", sender: nil)
             } else if json.code == 401 || json.code == 419{
                 self.view.makeToast(json.message , duration: 3.0, position: .top)
-                
             } else if json.code == 400 || json.code == 500 {
                 print(String(describing:json))
             }
-           // self.hideActivityIndicator()
         }
     }
 

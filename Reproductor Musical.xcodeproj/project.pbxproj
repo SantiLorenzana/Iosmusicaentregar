@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5BDB450D1B8B829A1886F4E1 /* Pods_Reproductor_Musical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2820AAF57C213486CC34F68 /* Pods_Reproductor_Musical.framework */; };
+		7F0277A02059751500427DFD /* DataInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F02778F2059751500427DFD /* DataInTableViewCell.swift */; };
+		7F0277A12059751500427DFD /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0277902059751500427DFD /* ListTableViewController.swift */; };
+		7F0277AB2059A45300427DFD /* RecoverPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0277AA2059A45300427DFD /* RecoverPassViewController.swift */; };
+		7F0277AD2059A48700427DFD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0277AC2059A48700427DFD /* RegisterViewController.swift */; };
 		7F082AA72049E030001A0101 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F082AA62049E030001A0101 /* DataManager.swift */; };
 		7F082AAC2049E21E001A0101 /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F082AAB2049E21E001A0101 /* RequestController.swift */; };
 		7F082AAE2049E2AC001A0101 /* JSONhttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F082AAD2049E2AC001A0101 /* JSONhttp.swift */; };
 		7F61E74C1FC751FE00FD706C /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74B1FC751FE00FD706C /* song.swift */; };
-		7F61E74E1FC7548B00FD706C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74D1FC7548B00FD706C /* Data.swift */; };
-		7F61E7501FC7595400FD706C /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61E74F1FC7595400FD706C /* PlayingViewController.swift */; };
+		7F7710E92059AF94005572E4 /* CustomvViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7710E82059AF94005572E4 /* CustomvViewCell.swift */; };
 		7F95F60F1FC4AC5600BDE7E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95F60E1FC4AC5600BDE7E2 /* AppDelegate.swift */; };
-		7F95F6111FC4AC5600BDE7E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95F6101FC4AC5600BDE7E2 /* ViewController.swift */; };
 		7F95F6141FC4AC5600BDE7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6121FC4AC5600BDE7E2 /* Main.storyboard */; };
 		7F95F6161FC4AC5600BDE7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6151FC4AC5600BDE7E2 /* Assets.xcassets */; };
 		7F95F6191FC4AC5600BDE7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F95F6171FC4AC5600BDE7E2 /* LaunchScreen.storyboard */; };
@@ -29,15 +31,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F02778F2059751500427DFD /* DataInTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInTableViewCell.swift; sourceTree = "<group>"; };
+		7F0277902059751500427DFD /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		7F0277AA2059A45300427DFD /* RecoverPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverPassViewController.swift; sourceTree = "<group>"; };
+		7F0277AC2059A48700427DFD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7F082AA62049E030001A0101 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		7F082AAB2049E21E001A0101 /* RequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
 		7F082AAD2049E2AC001A0101 /* JSONhttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONhttp.swift; sourceTree = "<group>"; };
 		7F61E74B1FC751FE00FD706C /* song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
-		7F61E74D1FC7548B00FD706C /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		7F61E74F1FC7595400FD706C /* PlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
+		7F7710E82059AF94005572E4 /* CustomvViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomvViewCell.swift; sourceTree = "<group>"; };
 		7F95F60B1FC4AC5600BDE7E2 /* Reproductor Musical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reproductor Musical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F95F60E1FC4AC5600BDE7E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F95F6101FC4AC5600BDE7E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F95F6131FC4AC5600BDE7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F95F6151FC4AC5600BDE7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F95F6181FC4AC5600BDE7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +82,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7F02778E2059751500427DFD /* Listas */ = {
+			isa = PBXGroup;
+			children = (
+				7F02778F2059751500427DFD /* DataInTableViewCell.swift */,
+				7F0277902059751500427DFD /* ListTableViewController.swift */,
+				7F7710E82059AF94005572E4 /* CustomvViewCell.swift */,
+			);
+			path = Listas;
+			sourceTree = "<group>";
+		};
 		7F082AA52049E004001A0101 /* Servicios */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				7FDC0184201A66600052080F /* LoginViewController.swift */,
+				7F0277AA2059A45300427DFD /* RecoverPassViewController.swift */,
+				7F0277AC2059A48700427DFD /* RegisterViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -100,17 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				7F61E74B1FC751FE00FD706C /* song.swift */,
-				7F61E74D1FC7548B00FD706C /* Data.swift */,
 			);
 			path = DataApp;
-			sourceTree = "<group>";
-		};
-		7F082AAA2049E117001A0101 /* Reproductor */ = {
-			isa = PBXGroup;
-			children = (
-				7F61E74F1FC7595400FD706C /* PlayingViewController.swift */,
-			);
-			path = Reproductor;
 			sourceTree = "<group>";
 		};
 		7F95F6021FC4AC5600BDE7E2 = {
@@ -136,11 +143,10 @@
 		7F95F60D1FC4AC5600BDE7E2 /* Reproductor Musical */ = {
 			isa = PBXGroup;
 			children = (
-				7F082AAA2049E117001A0101 /* Reproductor */,
 				7F082AA92049E0D9001A0101 /* DataApp */,
 				7F082AA82049E0B4001A0101 /* Login */,
+				7F02778E2059751500427DFD /* Listas */,
 				7F95F60E1FC4AC5600BDE7E2 /* AppDelegate.swift */,
-				7F95F6101FC4AC5600BDE7E2 /* ViewController.swift */,
 				7F95F6121FC4AC5600BDE7E2 /* Main.storyboard */,
 				7F95F6151FC4AC5600BDE7E2 /* Assets.xcassets */,
 				7F95F6171FC4AC5600BDE7E2 /* LaunchScreen.storyboard */,
@@ -275,11 +281,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Reproductor Musical/Pods-Reproductor Musical-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/ZAlertView/ZAlertView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZAlertView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -308,15 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7710E92059AF94005572E4 /* CustomvViewCell.swift in Sources */,
 				7FDC0185201A66600052080F /* LoginViewController.swift in Sources */,
 				7F082AAC2049E21E001A0101 /* RequestController.swift in Sources */,
 				7F082AA72049E030001A0101 /* DataManager.swift in Sources */,
-				7F95F6111FC4AC5600BDE7E2 /* ViewController.swift in Sources */,
+				7F0277A12059751500427DFD /* ListTableViewController.swift in Sources */,
+				7F0277AB2059A45300427DFD /* RecoverPassViewController.swift in Sources */,
 				7F95F60F1FC4AC5600BDE7E2 /* AppDelegate.swift in Sources */,
 				7F61E74C1FC751FE00FD706C /* song.swift in Sources */,
 				7F082AAE2049E2AC001A0101 /* JSONhttp.swift in Sources */,
-				7F61E7501FC7595400FD706C /* PlayingViewController.swift in Sources */,
-				7F61E74E1FC7548B00FD706C /* Data.swift in Sources */,
+				7F0277A02059751500427DFD /* DataInTableViewCell.swift in Sources */,
+				7F0277AD2059A48700427DFD /* RegisterViewController.swift in Sources */,
 				7FA16F071FCC662F00280279 /* ErrorDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
